@@ -1,0 +1,1 @@
+utag.globals.dle.enrichments['ent-eligibility'] = {"Gb":true, "GbInject":false, "GbDev":true, "GbInjectDev":false, "gbModeDev":"blacklist", "gbMaskClassListDev":['usaa-formatted-input*'], "gbMaskListDev":['usaa-form-v4-7-3-input*']} 
