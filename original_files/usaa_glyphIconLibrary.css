@@ -1,0 +1,587 @@
+@font-face {
+	font-family: 'usaa_glyphicon_library';
+	src: url('../Fonts/usaa_glyphicon_library.eot?nx464g');
+	src: url('../Fonts/usaa_glyphicon_library.eot?nx464g#iefix') format('embedded-opentype'),  url('../Fonts/usaa_glyphicon_library.ttf?nx464g') format('truetype'),  url('../Fonts/usaa_glyphicon_library.woff?nx464g') format('woff'),  url('../Fonts/usaa_glyphicon_library.svg?nx464g#usaa_glyphicon_library') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+ [class^="usaa-glyph"], [class*=" usaa-glyph"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'usaa_glyphicon_library' !important;
+ speak: none;
+ font-style: normal;
+ font-weight: normal;
+ font-variant: normal;
+ text-transform: none;
+ line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+ -moz-osx-font-smoothing: grayscale;
+}
+
+.usaa-glyph-gradCap:before {
+  content: "\e9ac";
+}
+.usaa-glyph-alert:before {
+  content: "\e9ab";
+}
+.usaa-glyph-checklistAlt:before {
+  content: "\e9a7";
+}
+.usaa-glyph-healthcare:before {
+  content: "\e9a8";
+}
+.usaa-glyph-house:before {
+  content: "\e9a9";
+}
+.usaa-glyph-protection:before {
+  content: "\e9aa";
+}
+.usaa-glyph-autotransfer:before {
+  content: "\e9a0";
+}
+.usaa-glyph-checkbookalt:before {
+  content: "\e9a1";
+}
+.usaa-glyph-creditcardalt:before {
+  content: "\e9a2";
+}
+.usaa-glyph-debt-protection:before {
+  content: "\e9a3";
+}
+.usaa-glyph-handshake:before {
+  content: "\e9a4";
+}
+.usaa-glyph-lockalt:before {
+  content: "\e9a5";
+}
+.usaa-glyph-shield-tools:before {
+  content: "\e9a6";
+}
+.usaa-glyph-trophy:before {
+  content: "\e99f";
+}
+.usaa-glyph-dialog-box:before {
+  content: "\e997";
+}
+.usaa-glyph-glasses-sale:before {
+  content: "\e998";
+}
+.usaa-glyph-hospital:before {
+  content: "\e999";
+}
+.usaa-glyph-im-heart-pulse:before {
+  content: "\e99a";
+}
+.usaa-glyph-im-house:before {
+  content: "\e99b";
+}
+.usaa-glyph-optometrist:before {
+  content: "\e99c";
+}
+.usaa-glyph-plus-im-shield:before {
+  content: "\e99d";
+}
+.usaa-glyph-thin-car:before {
+  content: "\e99e";
+}
+.usaa-glyph-bank-building:before {
+  content: "\e992";
+}
+.usaa-glyph-bar-graph:before {
+  content: "\e993";
+}
+.usaa-glyph-car:before {
+  content: "\e994";
+}
+.usaa-glyph-mobile-phone:before {
+  content: "\e995";
+}
+.usaa-glyph-play:before {
+  content: "\e996";
+}
+.usaa-glyph-guage:before {
+  content: "\e990";
+}
+.usaa-glyph-level-bars:before {
+  content: "\e991";
+}
+.usaa-glyph-rocket:before {
+  content: "\e98f";
+}
+.usaa-glyph-circle-check:before {
+  content: "\e98c";
+}
+.usaa-glyph-dollar-circle-arrows:before {
+  content: "\e98d";
+}
+.usaa-glyph-no-fees:before {
+  content: "\e98e";
+}
+.usaa-glyph-card-chip:before {
+  content: "\e986";
+}
+.usaa-glyph-cashback-dollar-sign:before {
+  content: "\e987";
+}
+.usaa-glyph-fingerprint:before {
+  content: "\e988";
+}
+.usaa-glyph-low-cost:before {
+  content: "\e989";
+}
+.usaa-glyph-saluting-soldier:before {
+  content: "\e98a";
+}
+.usaa-glyph-shield-creditcard:before {
+  content: "\e98b";
+}
+.usaa-glyph-silverware:before {
+  content: "\e984";
+}
+.usaa-glyph-simple-clock:before {
+  content: "\e985";
+}
+.usaa-glyph-phone-with-hand:before {
+  content: "\e983";
+}
+.usaa-glyph-camera:before {
+  content: "\e971";
+}
+.usaa-glyph-card-receipt:before {
+  content: "\e972";
+}
+.usaa-glyph-clock-arrow:before {
+  content: "\e973";
+}
+.usaa-glyph-fur-coat:before {
+  content: "\e974";
+}
+.usaa-glyph-guitar:before {
+  content: "\e975";
+}
+.usaa-glyph-hanging-picture:before {
+  content: "\e976";
+}
+.usaa-glyph-pistol:before {
+  content: "\e977";
+}
+.usaa-glyph-airplane:before {
+  content: "\e978";
+}
+.usaa-glyph-envelope-square:before {
+  content: "\e979";
+}
+.usaa-glyph-eye-chart:before {
+  content: "\e97a";
+}
+.usaa-glyph-heart-pulse:before {
+  content: "\e97b";
+}
+.usaa-glyph-id-lock:before {
+  content: "\e97c";
+}
+.usaa-glyph-medic-staff:before {
+  content: "\e97d";
+}
+.usaa-glyph-medicare:before {
+  content: "\e97e";
+}
+.usaa-glyph-mobile-upload:before {
+  content: "\e97f";
+}
+.usaa-glyph-shield-solid-check:before {
+  content: "\e980";
+}
+.usaa-glyph-star-medal-large:before {
+  content: "\e981";
+}
+.usaa-glyph-tooth:before {
+  content: "\e982";
+}
+.usaa-glyph-house-alt:before {
+  content: "\e96b";
+}
+.usaa-glyph-monthly-fees:before {
+  content: "\e96c";
+}
+.usaa-glyph-outline-shield:before {
+  content: "\e96d";
+}
+.usaa-glyph-pacifer:before {
+  content: "\e96e";
+}
+.usaa-glyph-rings:before {
+  content: "\e96f";
+}
+.usaa-glyph-stamp:before {
+  content: "\e970";
+}
+
+.usaa-glyph-atm:before {
+  content: "\e965";
+}
+.usaa-glyph-check-shield:before {
+  content: "\e966";
+}
+.usaa-glyph-map-pin-hollow:before {
+  content: "\e967";
+}
+.usaa-glyph-receipt:before {
+  content: "\e968";
+}
+.usaa-glyph-star-medal:before {
+  content: "\e969";
+}
+.usaa-glyph-thick-X:before {
+  content: "\e96a";
+}
+.usaa-glyph-tornado:before {
+  content: "\e964";
+}
+.usaa-glyph-card-wrench:before {
+  content: "\e95a";
+}
+.usaa-glyph-dog-ear-document:before {
+  content: "\e95c";
+}
+.usaa-glyph-dollar-stack:before {
+  content: "\e95d";
+}
+.usaa-glyph-down-arrow-percent:before {
+  content: "\e960";
+}
+.usaa-glyph-five-point-star:before {
+  content: "\e961";
+}
+.usaa-glyph-military-rank-badge:before {
+  content: "\e962";
+}
+.usaa-glyph-star-trophy:before {
+  content: "\e963";
+}
+.usaa-glyph-diamond-fancy:before {
+  content: "\e959";
+}
+.usaa-glyph-jeep:before {
+  content: "\e95b";
+}
+.usaa-glyph-pie-chart:before {
+  content: "\e95e";
+}
+.usaa-glyph-shield-house:before {
+  content: "\e95f";
+}
+.usaa-glyph-ambulance:before {
+  content: "\e94b";
+}
+.usaa-glyph-duffle-bag:before {
+  content: "\e94c";
+}
+.usaa-glyph-fancy-drink:before {
+  content: "\e94d";
+}
+.usaa-glyph-firstaid-kit:before {
+  content: "\e94e";
+}
+.usaa-glyph-for-sale-sign:before {
+  content: "\e94f";
+}
+.usaa-glyph-key:before {
+  content: "\e950";
+}
+.usaa-glyph-lightning-cloud:before {
+  content: "\e951";
+}
+.usaa-glyph-minus:before {
+  content: "\e952";
+}
+.usaa-glyph-network-globe:before {
+  content: "\e953";
+}
+.usaa-glyph-network-people:before {
+  content: "\e954";
+}
+.usaa-glyph-phone-hand:before {
+  content: "\e955";
+}
+.usaa-glyph-plus:before {
+  content: "\e956";
+}
+.usaa-glyph-simple-dollar:before {
+  content: "\e957";
+}
+.usaa-glyph-thick-checkmark:before {
+  content: "\e958";
+}
+.usaa-glyph-add-calendar:before {
+  content: "\e947";
+}
+.usaa-glyph-check-papers:before {
+  content: "\e948";
+}
+.usaa-glyph-coin:before {
+  content: "\e949";
+}
+.usaa-glyph-phone:before {
+  content: "\e94a";
+}
+.usaa-glyph-calculator:before {
+  content: "\e93f";
+}
+.usaa-glyph-female-msr:before {
+  content: "\e940";
+}
+.usaa-glyph-guidance:before {
+  content: "\e941";
+}
+.usaa-glyph-low-percentage:before {
+  content: "\e942";
+}
+.usaa-glyph-mobile-capabilities:before {
+  content: "\e943";
+}
+.usaa-glyph-performance:before {
+  content: "\e944";
+}
+.usaa-glyph-service-medal:before {
+  content: "\e945";
+}
+.usaa-glyph-X:before {
+  content: "\e946";
+}
+.usaa-glyph-back-chevron:before {
+  content: "\e913";
+}
+.usaa-glyph-chevron-down:before {
+  content: "\e914";
+}
+.usaa-glyph-chevron-left:before {
+  content: "\e915";
+}
+.usaa-glyph-chevron-right:before {
+  content: "\e924";
+}
+.usaa-glyph-chevron-up:before {
+  content: "\e925";
+}
+.usaa-glyph-chevron-up-gap:before {
+  content: "\e926";
+}
+.usaa-glyph-diamond-outline:before {
+  content: "\e927";
+}
+.usaa-glyph-diamond-pack:before {
+  content: "\e928";
+}
+.usaa-glyph-forward:before {
+  content: "\e929";
+}
+.usaa-glyph-horizontal-diamond-pack:before {
+  content: "\e92a";
+}
+.usaa-glyph-horizontal-double-chevron-gap:before {
+  content: "\e92b";
+}
+.usaa-glyph-star:before {
+  content: "\e92c";
+}
+.usaa-glyph-sunrise:before {
+  content: "\e92d";
+}
+.usaa-glyph-symbol-compass:before {
+  content: "\e92e";
+}
+.usaa-glyph-symbol-laurel:before {
+  content: "\e92f";
+}
+.usaa-glyph-symbol-shield:before {
+  content: "\e930";
+}
+.usaa-glyph-symbol-wreath:before {
+  content: "\e931";
+}
+.usaa-glyph-usaa-diamond:before {
+  content: "\e932";
+}
+.usaa-glyph-usaa-logo:before {
+  content: "\e933";
+}
+.usaa-glyph-automatic-investing:before {
+  content: "\e934";
+}
+.usaa-glyph-create-account:before {
+  content: "\e935";
+}
+.usaa-glyph-create-ira:before {
+  content: "\e936";
+}
+.usaa-glyph-document:before {
+  content: "\e937";
+}
+.usaa-glyph-dollar-tag:before {
+  content: "\e938";
+}
+.usaa-glyph-feed-ira:before {
+  content: "\e939";
+}
+.usaa-glyph-fund-ira:before {
+  content: "\e93a";
+}
+.usaa-glyph-military-affiliation:before {
+  content: "\e93b";
+}
+.usaa-glyph-mobile-investing:before {
+  content: "\e93c";
+}
+.usaa-glyph-search-funds:before {
+  content: "\e93d";
+}
+.usaa-glyph-sharing:before {
+  content: "\e93e";
+}
+.usaa-glyph-cash:before {
+  content: "\e900";
+}
+.usaa-glyph-checklist:before {
+  content: "\e901";
+}
+.usaa-glyph-checkmark:before {
+  content: "\e902";
+}
+.usaa-glyph-chevron-thin:before {
+  content: "\e903";
+}
+.usaa-glyph-compass:before {
+  content: "\e904";
+}
+.usaa-glyph-credit-card:before {
+  content: "\e905";
+}
+.usaa-glyph-credit-cards:before {
+  content: "\e906";
+}
+.usaa-glyph-diamond:before {
+  content: "\e907";
+}
+.usaa-glyph-etfs:before {
+  content: "\e908";
+}
+.usaa-glyph-eva-no-mic:before {
+  content: "\e909";
+}
+.usaa-glyph-fixed-income:before {
+  content: "\e90a";
+}
+.usaa-glyph-home:before {
+  content: "\e90b";
+}
+.usaa-glyph-id-card:before {
+  content: "\e90c";
+}
+.usaa-glyph-lightbulb:before {
+  content: "\e90d";
+}
+.usaa-glyph-managed-portfolio:before {
+  content: "\e90e";
+}
+.usaa-glyph-market-insights:before {
+  content: "\e90f";
+}
+.usaa-glyph-medicare:before {
+  content: "\e910";
+}
+.usaa-glyph-mobile-investing2:before {
+  content: "\e911";
+}
+.usaa-glyph-mutual-funds:before {
+  content: "\e912";
+}
+.usaa-glyph-performance2:before {
+  content: "\e916";
+}
+.usaa-glyph-piggy-bank:before {
+  content: "\e917";
+}
+.usaa-glyph-search:before {
+  content: "\e918";
+}
+.usaa-glyph-stocks-and-options:before {
+  content: "\e919";
+}
+.usaa-glyph-target-retirement:before {
+  content: "\e91a";
+}
+.usaa-glyph-target-risk:before {
+  content: "\e91b";
+}
+.usaa-glyph-toggle:before {
+  content: "\e91c";
+}
+.usaa-glyph-tools:before {
+  content: "\e91d";
+}
+.usaa-glyph-usaa-logo2:before {
+  content: "\e91e";
+}
+.usaa-glyph-wallet:before {
+  content: "\e91f";
+}
+.usaa-glyph-envelope:before {
+  content: "\e920";
+}
+.usaa-glyph-bank:before {
+  content: "\e921";
+}
+.usaa-glyph-dogtags:before {
+  content: "\e922";
+}
+.usaa-glyph-planning:before {
+  content: "\e923";
+}
+
+/****************** START USAA COLORS ******************/
+
+.usaa-blue-1 {
+  color: #12395b;
+}
+.usaa-blue-2 {
+  color: #0d2f4c;
+}
+.usaa-yellow-1 {
+  color: #fac705;
+}
+.usaa-yellow-2 {
+  color: #e8ab06;
+}
+.usaa-blue-3 {
+  color: #0f1e31;
+}
+.usaa-green-1 {
+  color: #87864a;
+}
+.usaa-green-2 {
+  color: #54732d;
+}
+.usaa-green-3 {
+  color: #435f21;
+}
+.usaa-green-4 {
+  color: #325237;
+}
+.usaa-gray-1 {
+  color: #f2f3f3;
+}
+.usaa-gray-2 {
+  color: #edecea;
+}
+.usaa-gray-3 {
+  color: #e0dedc;
+}
+.usaa-gray-4 {
+  color: #676a6e;
+}
+.usaa-gray-5 {
+  color: #424951;
+}
